@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#you can find the library in https://github.com/judplaza/MFRC522-python.git, it is a folk from the original where I add/edited functions to adap them to my project
 
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522

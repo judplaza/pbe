@@ -1,8 +1,3 @@
-//codigo para leer la id en un rc552 en python
-//POSIBLES AMPLIACIONES: 
-  //identificar el id, tipo "id:###"
-  #hacer menú en la lectura
-
 #!/usr/bin/env python
 
 import RPi.GPIO as GPIO
@@ -12,7 +7,7 @@ reader = SimpleMFRC522()
 
 try:
         id = reader.read_id()
-        uid = (hex(id).upper()[2:10]) #passo a hexadecimal de 8 xifres la id
-        print(uid)
+        uid = reader.from_dec_to_hex8(id)
+        print("UID hex8: " , uid)
 finally:
         GPIO.cleanup()

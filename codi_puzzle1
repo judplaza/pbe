@@ -1,10 +1,7 @@
 //codigo para leer la id en un rc552 en python
 //POSIBLES AMPLIACIONES: 
   //identificar el id, tipo "id:###"
-  //posibiliad de editr la infromación del aparato. decidir el id y el texto que quiero
- //CUESTIONES
-  //la placa del parking es igual pero no funciona, pq?
-#!/usr/bin/env python
+  #hacer menú en la lectura
 
 #!/usr/bin/env python
 

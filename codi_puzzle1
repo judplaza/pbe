@@ -7,8 +7,8 @@ from mfrc522 import SimpleMFRC522
 reader = SimpleMFRC522()
 
 try:
-        id = reader.read_id()
-        uid = reader.from_dec_to_hex8(id)
+        id = reader.read_id() #this function returns the id in decimal format
+        uid = reader.from_dec_to_hex8(id) #this function transforms the previus decimal number into a hex one.
         print("UID hex8: " , uid)
 finally:
         GPIO.cleanup()

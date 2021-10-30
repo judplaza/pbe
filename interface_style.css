@@ -1,0 +1,25 @@
+.welcome{
+	font: 15px Sans;
+	background-color: #EE9088;
+	color: #FFFFFF
+
+}
+
+.uid_text{
+	font: 15px Sans;
+	background-color: #6F91B6;
+	color: #FFFFFF
+}
+
+button, entry {
+	color: #000000;
+	font: 15px Sans;
+}
+
+button:active {
+	background-color: #B8E1E5;
+}
+
+button:hover {
+	background-color: #FFFFFF;
+}
